@@ -13,4 +13,10 @@
     <ProjectReference Include="..\MyShop.Domain\MyShop.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
 </Project>
